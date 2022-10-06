@@ -38,7 +38,7 @@ while running:
 
     if rect_pos_x >= 500 and rect_pos_y >= 210:
         rect_pos_x = 500
-        rect_pos_y = 210
+        rect_pos_y = 216
         hozzaadni_szabad = False
 
     if circle_pos_x >= 250 and circle_pos_y >= 50:
@@ -49,6 +49,8 @@ while running:
     if hozzaadni_szabad:
         rect_pos_x += 5
         rect_pos_y += 2
+        #print(f"X: {rect_pos_x}")
+        #print(f"Y: {rect_pos_y}")
 
     if hozzaadni_szabad2:
         #print(f"X: {circle_pos_x}")
