@@ -59,7 +59,7 @@ while mennyen_e:
         print(f"FPS:{clock.get_fps():.0f} {tuple(szin)}")
 
     pygame.event.clear()  # Tisztítja az eseménylistát, csökkentve a terhelést
-    clock.tick(10)  # 30 FPS-re limitáljuk, hogy ne pörögjön feleslegesen a CPU
+    clock.tick(10)  # 10 FPS-re limitáljuk, hogy ne pörögjön feleslegesen a CPU
     
 
 pygame.quit()
